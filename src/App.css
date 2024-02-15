@@ -1,0 +1,59 @@
+.section-product-wrapper {
+    margin: 0 auto;
+}
+
+.section-product {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 400px;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 10px;
+    color: #2f3a1a
+}
+
+p {
+    color: #2f3a1a;
+}
+
+button {
+    padding: 6px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.div-form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid darkolivegreen;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 10px;
+    color: #2f3a1a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+label {
+    margin: 10px;
+}
