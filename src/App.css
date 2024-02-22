@@ -1,0 +1,96 @@
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-shoppinglist {
+    width: 40vw;
+    max-width: 400px;
+}
+
+.section-form {
+    width: 50vw;
+    max-width: 500px;
+}
+
+.section-product {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+}
+
+.counter-wrapper {
+    display: flex;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px;
+    color: #2f3a1a
+}
+
+p {
+    color: #2f3a1a;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-counter {
+    margin: 10px;
+    padding: 6px 10px;
+}
+
+.btn-reset, .btn-submit {
+    padding: 10px 0;
+    width: 100%;
+    margin: 10px 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkolivegreen;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+legend {
+    padding: 0 10px;
+    color: #2f3a1a;
+    text-align: center;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 2px;
+}
+
+span {
+    margin: 10px 0;
+}
