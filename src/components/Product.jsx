@@ -1,6 +1,16 @@
-function Product(props) {
+import ProductCounter from "./ProductCounter.jsx";
+
+function Product({productName, amountCounter, setAmountCounter}) {
     return (
-        <div></div>
+        <>
+            <section className="section-product">
+                <h2>{ productName }</h2>
+                <ProductCounter
+                    amountCounter={ amountCounter }
+                    setAmountCounter={ setAmountCounter }
+                />
+            </section>
+        </>
     );
 }
 
